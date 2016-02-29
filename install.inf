@@ -1,0 +1,21 @@
+[info]
+title=AStyle Format
+desc=Formats source code for these lexers: C, C++, C#, Java; uses AStyle library
+type=cudatext-plugin
+subdir=cuda_astyle_format
+
+[item1]
+section=commands
+caption=AStyle Format\Format
+method=run
+lexers=C,C++,C#,Java
+
+[item2]
+section=commands
+caption=AStyle Format\Configure
+method=config_global
+
+[item3]
+section=commands
+caption=AStyle Format\Configure (local)
+method=config_local
