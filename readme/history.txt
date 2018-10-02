@@ -1,6 +1,7 @@
 
 2018.10.02
 + supported Unix (tested on Linux, via "sudo pip3 install pyastyle")
+* now Windows is not supported, need to get pyastyle.pyd 32-bit and 64-bit for Python 3.5
 
 2015.10
 initial
