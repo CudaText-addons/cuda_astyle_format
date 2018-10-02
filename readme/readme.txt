@@ -1,5 +1,5 @@
 Plugin for CudaText.
-It allows to format (beautify) source code for these lexers: C++, C, C#, Java, using good AStyle library.
+It allows to format (beautify) source code for lexers C, C++, C#, Java, using AStyle library.
 
 If selection is made (only normal selection supported) then only selection is formatted, otherwise entire file is formatted. But note: selection formatting is incorrect in many cases, e.g. if you format only nested { } block, it will have incorrect indent regarding parent { } block. Sublime's plugin AStyleFormatter does special work for this case, and it's too complex, so it's not "repeated" here.
 
