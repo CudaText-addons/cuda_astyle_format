@@ -1,9 +1,10 @@
 [info]
 title=AStyle Format
-desc=Formats source code for these lexers: C, C++, C#, Java; uses AStyle library
+desc=Formats source code for these lexers: C, C++, C#, Java; using AStyle library
 type=cudatext-plugin
 subdir=cuda_astyle_format
 homepage=https://github.com/CudaText-addons/cuda_astyle_format
+os=linux,macos,freebsd
 
 [item1]
 section=commands
