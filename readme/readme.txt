@@ -11,5 +11,5 @@ You can edit config file using two "Configure" commands:
 - "Configure" opens config-file from "settings" folder, which is used when local file doesn't exist.
 - "Configure (local)" opens config-file from the folder of current editor file. If local file doesn't exist, command suggests to copy global file into local name, and then opens it. 
 
-Author: Alexey (CudaText)
+Author: Alexey Torgashin (CudaText)
 License: MIT
